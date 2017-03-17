@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nico/mine/fastCorners.cpp" "/home/nico/mine/CMakeFiles/fastCorners.dir/fastCorners.cpp.o"
+  "/home/nico/myVO/fastCorners.cpp" "/home/nico/myVO/CMakeFiles/fastCorners.dir/fastCorners.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

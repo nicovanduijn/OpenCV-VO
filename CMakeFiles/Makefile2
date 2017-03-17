@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nico/mine
+CMAKE_SOURCE_DIR = /home/nico/myVO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nico/mine
+CMAKE_BINARY_DIR = /home/nico/myVO
 
 #=============================================================================
 # Target rules for target CMakeFiles/fastCorners.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/nico/mine
 CMakeFiles/fastCorners.dir/all:
 	$(MAKE) -f CMakeFiles/fastCorners.dir/build.make CMakeFiles/fastCorners.dir/depend
 	$(MAKE) -f CMakeFiles/fastCorners.dir/build.make CMakeFiles/fastCorners.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nico/mine/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nico/myVO/CMakeFiles  1
 	@echo "Built target fastCorners"
 .PHONY : CMakeFiles/fastCorners.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/fastCorners.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fastCorners.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/mine/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/myVO/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fastCorners.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/mine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/myVO/CMakeFiles 0
 .PHONY : CMakeFiles/fastCorners.dir/rule
 
 # Convenience name for target.

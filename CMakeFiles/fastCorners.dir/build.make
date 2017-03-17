@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nico/mine
+CMAKE_SOURCE_DIR = /home/nico/myVO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nico/mine
+CMAKE_BINARY_DIR = /home/nico/myVO
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fastCorners.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/fastCorners.dir/flags.make
 
 CMakeFiles/fastCorners.dir/fastCorners.cpp.o: CMakeFiles/fastCorners.dir/flags.make
 CMakeFiles/fastCorners.dir/fastCorners.cpp.o: fastCorners.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nico/mine/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nico/myVO/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fastCorners.dir/fastCorners.cpp.o"
-	/usr/lib/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fastCorners.dir/fastCorners.cpp.o -c /home/nico/mine/fastCorners.cpp
+	/usr/lib/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fastCorners.dir/fastCorners.cpp.o -c /home/nico/myVO/fastCorners.cpp
 
 CMakeFiles/fastCorners.dir/fastCorners.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fastCorners.dir/fastCorners.cpp.i"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nico/mine/fastCorners.cpp > CMakeFiles/fastCorners.dir/fastCorners.cpp.i
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nico/myVO/fastCorners.cpp > CMakeFiles/fastCorners.dir/fastCorners.cpp.i
 
 CMakeFiles/fastCorners.dir/fastCorners.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fastCorners.dir/fastCorners.cpp.s"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nico/mine/fastCorners.cpp -o CMakeFiles/fastCorners.dir/fastCorners.cpp.s
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nico/myVO/fastCorners.cpp -o CMakeFiles/fastCorners.dir/fastCorners.cpp.s
 
 CMakeFiles/fastCorners.dir/fastCorners.cpp.o.requires:
 .PHONY : CMakeFiles/fastCorners.dir/fastCorners.cpp.o.requires
@@ -126,6 +126,6 @@ CMakeFiles/fastCorners.dir/clean:
 .PHONY : CMakeFiles/fastCorners.dir/clean
 
 CMakeFiles/fastCorners.dir/depend:
-	cd /home/nico/mine && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nico/mine /home/nico/mine /home/nico/mine /home/nico/mine /home/nico/mine/CMakeFiles/fastCorners.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nico/myVO && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nico/myVO /home/nico/myVO /home/nico/myVO /home/nico/myVO /home/nico/myVO/CMakeFiles/fastCorners.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fastCorners.dir/depend
 

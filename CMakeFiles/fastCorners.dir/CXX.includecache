@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nico/mine/fastCorners.cpp
+/home/nico/myVO/fastCorners.cpp
 stdio.h
 -
 opencv2/opencv.hpp
